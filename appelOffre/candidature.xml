@@ -17,6 +17,10 @@
     <delais>15</delais>
     <devis>http://monServeur/devis/1</devis>
     <liens>http://www.JackyBidouille.com</liens>
+    <fichiers>
+      <fichier>http://monServeur/fichiers/1-1</fichier>
+      <fichier>http://monServeur/fichiers/1-2</fichier>
+    </fichiers>
     <idProjet>1</idProjet>
   </repProjet>
 </candidature>
