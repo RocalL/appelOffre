@@ -48,21 +48,18 @@
     <form>
       <div class="form-group">
         <div class="row">
-        <div class="col-lg-6" id="panneauGauche">
-        Nom :<br>
-        <input type="text" name="Nom" value="">
-        <br>
-        Prénom :<br>
-        <input type="text" name="Prenom" value="">
-        <br>
-        N°tel :<br>
-        <input type="text" name="tel" value="">
-        <br>
-        Mail :<br>
-        <input type="text" name="mail" value="">
-        <br>
-      </div>
-      <div class="col-lg-6" id="panneauDroite">
+          <div class="col-lg-3" id="panneauGauche">
+            <label for="nomDuCandidat">Nom</label>
+            <input type="text" class="form-control" id="nomDuCandidat" placeholder="Nom">
+            <label for="prenomDuCandidat">Prénom</label>
+            <input type="text" class="form-control" id="prenomDuCandidat" placeholder="Prénom">
+            <label for="numTel">Numéro de téléphone</label>
+            <input type="number" class="form-control" id="numTel" placeholder="0123456789">
+            <label for="mail">Mail</label>
+            <input type="email" class="form-control" id="mail" aria-describedby="emailWarn" placeholder="Mail">
+            <small id="emailWarn" class="form-text text-muted">Nous nous engageons à vendre cet e-mail au plus offrant</small>
+          </div>
+      <div class="col-lg-3" id="panneauDroite">
         Devis :<br>
         <input type="file" name="devis">
         <br>
