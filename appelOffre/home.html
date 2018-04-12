@@ -3,54 +3,56 @@
 <head>
   <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
 
 <h2>Informations de candidature</h2>
 
 <div class="row" id="projet">
-  <div class="col-lg-4">
+  <div class="col-lg-4" id="img1">
     <img src="img/webprojet1.png" alt="projet 1">
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-4" id="img2">
     <img src="img/webprojet1.png" alt="projet 2">
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-4" id="img3">
     <img src="img/webprojet1.png" alt="projet 3">
   </div>
 </div>
 
-<form>
-  Nom :<br>
-  <input type="text" name="Nom" value="">
-  <br>
-  Prénom :<br>
-  <input type="text" name="Prenom" value="">
-  <br><br>
-  N°tel :<br>
-  <input type="text" name="tel" value="">
-  <br>
-  Mail :<br>
-  <input type="text" name="mail" value="">
-  <br>
-  Localisation : <br>
-  <select name="loc">
-    <option value="Auvergne - Rhône-Alpes"></option>
-    <option value="Bretagne">Saab</option>
-    <option value="Bourgogne">Fiat</option>
-    <option value="Nouvelle - Aquitiane">Audi</option>
-  </select>
-  <br><br>
-  CV :<br>
-  <input type="file" name="cv">
-  <br>
-  Lettre motivation :<br>
-  <input type="file" name="lettreMotivation">
+<div class = "row" id="candidature">
+  <div class="col-lg-12" id="form">
+    <form>
+      <div class="row">
+      <div class="col-lg-6" id="panneauGauche">
+      Nom :<br>
+      <input type="text" name="Nom" value="">
+      <br>
+      Prénom :<br>
+      <input type="text" name="Prenom" value="">
+      <br><br>
+      N°tel :<br>
+      <input type="text" name="tel" value="">
+      <br>
+      Mail :<br>
+      <input type="text" name="mail" value="">
+      <br>
+    </div>
+    <div class="col-lg-6" id="panneauDroite">
+      Devis :<br>
+      <input type="file" name="devis">
+      <br>
+      lien :<br>
+      <input type="text" name="lien">
+    </div>
+  </div>
+    <input type="submit" value="Envoyer sa candidature">
+    </form>
+  </div>
+</div>
 
 
-  <br><br>
-  <input type="submit" value="Envoyer sa candidature">
-</form>
 
 <p>test git</p>
 
