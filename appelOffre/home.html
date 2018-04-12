@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta charset="UTF-8">
   <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"
@@ -16,7 +17,7 @@
         <img src="img/webprojet1.png" alt="projet 1">
       </div>
       <div class="row">
-        <p>test</p>
+        <p>Je ne vois pas les 2 premiers caractères</p>
       </div>
     </div>
   </div>
@@ -30,7 +31,6 @@
       </div>
     </div>
   </div>
-  </div>
   <div class="col-lg-4" id="img3">
     <div class="box">
       <div class="row">
@@ -41,36 +41,37 @@
       </div>
     </div>
   </div>
-  </div>
 </div>
 
 <div class = "row" id="candidature">
   <div class="col-lg-12" id="form">
     <form>
-      <div class="row">
-      <div class="col-lg-6" id="panneauGauche">
-      Nom :<br>
-      <input type="text" name="Nom" value="">
-      <br>
-      Prénom :<br>
-      <input type="text" name="Prenom" value="">
-      <br><br>
-      N°tel :<br>
-      <input type="text" name="tel" value="">
-      <br>
-      Mail :<br>
-      <input type="text" name="mail" value="">
-      <br>
+      <div class="form-group">
+        <div class="row">
+        <div class="col-lg-6" id="panneauGauche">
+        Nom :<br>
+        <input type="text" name="Nom" value="">
+        <br>
+        Prénom :<br>
+        <input type="text" name="Prenom" value="">
+        <br>
+        N°tel :<br>
+        <input type="text" name="tel" value="">
+        <br>
+        Mail :<br>
+        <input type="text" name="mail" value="">
+        <br>
+      </div>
+      <div class="col-lg-6" id="panneauDroite">
+        Devis :<br>
+        <input type="file" name="devis">
+        <br>
+        lien :<br>
+        <input type="text" name="lien">
+      </div>
     </div>
-    <div class="col-lg-6" id="panneauDroite">
-      Devis :<br>
-      <input type="file" name="devis">
-      <br>
-      lien :<br>
-      <input type="text" name="lien">
-    </div>
+      <input type="submit" value="Envoyer sa candidature">
   </div>
-    <input type="submit" value="Envoyer sa candidature">
     </form>
   </div>
 </div>
