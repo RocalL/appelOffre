@@ -1,7 +1,9 @@
 #candidature {
     text-align: center;
 }
-
+#sendButton{
+  text-align: center;
+}
 .row{
   margin-left: 0;
   margi-right: 0;
